@@ -44,5 +44,5 @@ public class Cliente implements Serializable{
 	
 	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
 	private Set<Seguir> seguir = new HashSet<Seguir>();
-
+//
 }
