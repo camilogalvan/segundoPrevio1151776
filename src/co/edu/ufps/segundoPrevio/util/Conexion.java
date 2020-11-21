@@ -26,7 +26,7 @@ public class Conexion<T> {
 	
 	public static EntityManager getEm(){
 		if ( em == null ) {
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("tiendau");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("segundoPrevio");
             em = emf.createEntityManager();
         }
 		return em;
