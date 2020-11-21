@@ -27,6 +27,10 @@ import lombok.NoArgsConstructor;
 
 public class Servicio implements Serializable{
 
+	public Servicio(String nombre2, String descripcion2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(length = 11)
